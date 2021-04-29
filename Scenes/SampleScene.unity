@@ -1362,6 +1362,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   goldPieces: []
   greenPieces: []
+  isLoaded: 0
 --- !u!1001 &1049903995
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1843,6 +1844,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1895088163}
     m_Modifications:
+    - target: {fileID: 5154559125006859324, guid: 0d04d1dda0bd0c34e8c50cb8cde1bd32,
+        type: 3}
+      propertyPath: tile.content
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 7871990397779980177, guid: 0d04d1dda0bd0c34e8c50cb8cde1bd32,
         type: 3}
       propertyPath: m_Name
@@ -2415,6 +2421,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1895088163}
     m_Modifications:
+    - target: {fileID: 1011143477366102315, guid: 16edb1e2d1defc44c85153e8636753e3,
+        type: 3}
+      propertyPath: tile.content
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 2792653767112260996, guid: 16edb1e2d1defc44c85153e8636753e3,
         type: 3}
       propertyPath: m_RootOrder
