@@ -463,7 +463,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0.18867922, g: 0.18867922, b: 0.18867922, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -517,6 +517,31 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2049149181}
     m_Modifications:
+    - target: {fileID: 265037723710126132, guid: 7d5017a65314661488721051e9d1890f,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: 0.47
+      objectReference: {fileID: 0}
+    - target: {fileID: 265037723710126132, guid: 7d5017a65314661488721051e9d1890f,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 265037723710126132, guid: 7d5017a65314661488721051e9d1890f,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 265037723710126132, guid: 7d5017a65314661488721051e9d1890f,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 265037723710126132, guid: 7d5017a65314661488721051e9d1890f,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1944256569568079384, guid: 7d5017a65314661488721051e9d1890f,
         type: 3}
       propertyPath: m_Sprite
@@ -582,6 +607,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8291442582747031257, guid: 7d5017a65314661488721051e9d1890f,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8291442582747031257, guid: 7d5017a65314661488721051e9d1890f,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8291442582747031257, guid: 7d5017a65314661488721051e9d1890f,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8291442582747031257, guid: 7d5017a65314661488721051e9d1890f,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7d5017a65314661488721051e9d1890f, type: 3}
@@ -1231,6 +1276,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1048056317}
   - component: {fileID: 1048056316}
+  - component: {fileID: 1048056318}
   m_Layer: 0
   m_Name: Chessboard
   m_TagString: Untagged
@@ -1302,6 +1348,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1048056318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1048056315}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac2f84b20e59d57448028b140336f2fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goldPieces: []
+  greenPieces: []
 --- !u!1001 &1049903995
 PrefabInstance:
   m_ObjectHideFlags: 0
